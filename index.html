@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -17,16 +16,15 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 </head>
 
 <body>
     <section id="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#"><img src="logo.png" width="100px" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -55,23 +53,36 @@
     <section class="welcome">
         <div class="welcome-content">
             <h3>Welcome Back</h3>
-            <p>home > <span>login</span></p>
+            <p class="home">home > <span class="log">login</span></p>
         </div>
     </section>
-    <h4>Login</h4>
+    <h4 class="login">Login</h4>
 
     <section class="form">
-        <label for="mail">username or email address</label><br>
-        <input type="text" class="details" placeholder="">
-        <label for="pass">password</label><br>
-        <input type="text" class="details" placeholder="">
-        <input type="radio" class="" placeholder="your name">
-        <p>forgot password?</p>
-        <button class="btn">login</button>
-        <p>or</p>
+        <label class="user" for="mail">username or email address</label><br>
+        <input type="text" class="details" placeholder=""><br>
+        <label class="user" for="pass">password</label><br>
+        <input type="text" class="details" placeholder=""><br>
+        <div class="remember-box">
 
-        <button class="btn">Login with Google</button>
-        <p>Don't have an account? <span>Sign up</span></p>
+            <div class="remember-me"><label class="remember">Remember me <span class="pass">forgot password?</span></label>
+
+            </div>
+
+            <div><input type="checkbox" class="box" placeholder="your name">
+
+            </div>
+
+        </div>
+
+        <button class="btn1">login</button>
+        <div>
+            <p class="or"> <span>Or</span></p>
+        </div>
+
+
+        <button class="btn2">Login with Google</button>
+        <p class="signup">Don't have an account? <span>Sign up</span></p>
     </section>
     <footer>
         <div class="row foot-cont">
@@ -86,17 +97,21 @@
                 <p>Support</p>
                 <p>Offers</p>
             </div>
-            <div class="col-md-4 icons">
+            <div class="col-md-4 ">
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
 
-                <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
 
-                <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
 
-                <i class="fab fa-twitter"></i>
-
-                <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
             </div>
-            <div class="bottom-logo"><img src="logo.png" width="100px" /></div>
+
+
+            <img src="logo.png" width="100px" />
+
         </div>
     </footer>
 </body>
