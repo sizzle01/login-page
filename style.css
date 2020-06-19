@@ -95,10 +95,11 @@ p {
     outline: 0.1px solid #2a88cc;
     width: 350px;
     height: 40px;
+    pad
 }
 
-.user {
-    margin-top: 50px;
+.act {
+    margin-top: 10px;
 }
 
 .btn1 {
@@ -107,6 +108,7 @@ p {
     color: white;
     width: 350px;
     height: 40px;
+    margin-top: 20px;
 }
 
 .btn2 {
@@ -119,7 +121,9 @@ p {
 
 .or {
     text-align: center;
-    margin-right: 40px;
+    margin-right: 70px;
+    color: black;
+    padding-top: 10px;
 }
 
 
@@ -161,6 +165,7 @@ p {
 
 .remember-me {
     text-align: center;
+    padding: 10px;
 }
 
 .pass {
@@ -188,3 +193,5 @@ img {
     margin: auto;
     background-color: white;
 }
+
+@media (min-width: 800px) {}
