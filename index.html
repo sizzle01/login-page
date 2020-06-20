@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -16,15 +17,18 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 </head>
 
 <body>
+    <!--NAVIGATION SECTION MARKUP-->
     <section id="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#"><img src="logo.png" width="100px" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -41,33 +45,55 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">CONTACT US</a>
+                        <a class="nav-link" href="#price">JOBS</a>
 
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#price">CATEGORIES</a>
+
+                    </li>
+
+                    <li class="nav-item bord">
+                        <a class="nav-link" href="#price">Sign up</a>
+
+                    </li>
+                    <li class="nav-item bord">
+                        <a class="nav-link" href="#price">Login</a>
+
+                    </li>
+
+
+
 
                     </li>
                 </ul>
             </div>
         </nav>
     </section>
+    <!--HOME SECTION MARKUP-->
     <section class="welcome">
         <div class="welcome-content">
-            <h3>Welcome Back</h3>
-            <p class="home">home > <span class="log">login</span></p>
+            <h3 class="come">Welcome Back</h3>
+            <p class="home">home <span class="log"><a href="#"> > login</a></span></p>
         </div>
     </section>
     <h4 class="login">Login</h4>
 
     <section class="form">
-        <div class="act">
-            <label class="user" for="mail">username or email address</label><br></div>
-        <input type="text" class="details" placeholder="@gmail.com"><br>
-        <div class="act"><label class="user" for="pass">password</label><br></div>
 
-        <input type="text" class="details" placeholder="*****"><br>
-        <div class="remember-box">
+        <div class="info">
+            <label for="firName">username or email address</label>
+            <input type="text" class="firstname" class="styl">
+        </div>
+        <div class="info">
+            <label for="lasName">password</label>
+            <input type="text" class="Lastname" class="styl">
+        </div>
+        <div>
 
-            <div class="remember-me"><label class="remember">Remember me <span class="pass">forgot password?</span></label>
+            <div class="remember-me">
+                <class="remember">Remember me <span class="pass"><a href="#"> forgot
+                            password?</a>
 
             </div>
 
@@ -77,43 +103,50 @@
 
         </div>
 
-        <button class="btn1">login</button>
+        <button class="btn1"><a href="#">login</a></button>
         <div>
             <p class="or"> <span>Or</span></p>
         </div>
 
 
-        <button class="btn2">Login with Google</button>
-        <p class="signup">Don't have an account? <span>Sign up</span></p>
+        <button class="btn2"><a href="#">Login with Google</a></button>
+        <p class="signup">Don't have an account? <span><a href="#"> Sign up</a></span></p>
+
+        <!--FOOTER SECTION MARKUP-->
     </section>
     <footer>
-        <div class="row foot-cont">
-            <div class="col-md-4">
-                <h4>INFORMATION</h4>
-                <p>About Us</p>
-                <p>Contact Us</p>
-                <p>Trems & Conditions</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Responsive Links</h4>
-                <p>Support</p>
-                <p>Offers</p>
-            </div>
-            <div class="col-md-4 ">
-                <div class="icons">
-                    <i class="fab fa-instagram"></i>
 
-                    <i class="fab fa-facebook"></i>
-
-                    <i class="fab fa-twitter"></i>
-
-                    <i class="fab fa-linkedin"></i>
-                </div>
-            </div>
-
-
+        <div class="foot-cont">
             <img src="logo.png" width="100px" />
+            <div class="row">
 
+                <div class="col-md-4">
+                    <h4>INFORMATION</h4>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                    <p><a href="#">Trems & Conditions</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Responsive Links</h4>
+                    <p><a href="#">Support</a></p>
+                    <p><a href="#">Offers</a></p>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="icons">
+                        <i class="fab fa-instagram"></i>
+
+                        <i class="fab fa-facebook"></i>
+
+                        <i class="fab fa-twitter"></i>
+
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+
+
+
+
+            </div>
         </div>
     </footer>
 </body>
