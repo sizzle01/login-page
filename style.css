@@ -2,9 +2,7 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: green;
-}
+
 /* NAVIGATION BARNAVIGATION BAR NAVIGATION BAR */
 
 #nav-bar {
@@ -188,7 +186,9 @@ input[type="text"] {
   margin-top: 05px;
   color: #001220;
 }
-
+.signups a {
+  color: #2a88cc;
+}
 .remember-me {
   text-align: center;
   padding: 10px;
@@ -218,6 +218,7 @@ p a {
 .icons {
   display: inline-block;
   margin-left: 10vw;
+  padding: 10px;
 }
 .icons a {
   color: #fff;
@@ -228,8 +229,6 @@ img {
   margin: auto;
   background-color: #fff;
   margin-left: 10vw;
-  max-width: 100%;
-  height: auto;
 }
 /*MEDIA QUERIES*/
 @media (min-width: 800px) {
